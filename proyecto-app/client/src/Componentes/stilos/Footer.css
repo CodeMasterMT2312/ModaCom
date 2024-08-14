@@ -1,0 +1,50 @@
+footer {
+    background-color: #343a40;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer_derechos .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_derechos .col {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer__copy {
+    font-size: 14px;
+}
+
+.footer__icons {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__icons .titulo_de_redes {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer__icon-group {
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente */
+    align-items: center;
+}
+
+.footer__icon {
+    color: #000000;
+    margin: 0 10px; /* Ajusta el espacio entre los íconos horizontalmente */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer__icon:hover {
+    color: #007bff;
+}

@@ -1,0 +1,21 @@
+/* Nav.css */
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link.disabled {
+    color: #6c757d;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../img/logo.jpg'); /* Ajusta el ícono si es necesario */
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 10px 15px;
+}

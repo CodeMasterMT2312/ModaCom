@@ -1,0 +1,32 @@
+/* Header.css */
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.encabezado {
+    background-color: #f8f9fa; /* Fondo claro para el encabezado */
+    padding: 20px 0;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.letras {
+    font-size: 1rem;
+    font-style: italic;
+    color: #6c757d; /* Color gris claro */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff; /* Color azul para los enlaces */
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}

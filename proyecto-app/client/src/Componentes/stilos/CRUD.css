@@ -1,0 +1,37 @@
+/* Center the modal vertically */
+.modal-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.modal-content-no-scroll {
+    max-height: 90vh; /* Adjust based on your needs */
+    overflow: hidden; /* Hide overflow */
+}
+
+.modal-body {
+    overflow: auto; /* Allow scroll if content overflows */
+}
+
+
+.product-form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    margin-top: 20px; /* Espacio arriba del formulario */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin-left: auto;
+    margin-right: auto; /* Centrar el formulario horizontalmente */
+}
+
+#logOut{
+    background-color: #f00f0f;
+    color: #ffffff;
+}
+
+#logOut:hover{
+    background-color: #000000;
+}
